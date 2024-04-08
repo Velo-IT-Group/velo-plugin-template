@@ -29,6 +29,11 @@ export interface CustomWorkerAttributes extends WorkerAttributes {
   contact_uri: string;
   image_url: string;
   roles: ['admin' | 'supervisor' | 'agent'];
+  work_phone: string;
+  job_title: string;
+  mobile_phone: string;
+  direct_dial?: string;
+  on_call?: boolean;
 
   // used for selecting language
   language?: string;

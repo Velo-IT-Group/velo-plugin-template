@@ -405,6 +405,9 @@
           "side_nav_hover_background": "rgb(225, 227, 234)"
         },
         "component_theme_overrides": {}
+      },
+      "on_call_engineer": {
+        "enabled": false
       }
     }
   }
