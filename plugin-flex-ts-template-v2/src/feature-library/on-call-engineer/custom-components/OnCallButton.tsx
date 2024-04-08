@@ -26,7 +26,7 @@ const OnCallButton = (props: OwnProps) => {
       // @ts-ignore
       await internalWorkerService.changeOnCallEngineer(manager.workerClient);
       toaster.push({
-        message: `You are now the on call engineer. You can be reached at ${manager.workerClient?.attributes.direct_dial}`,
+        message: `You are now the on call engineer. You can be reached at ${manager.workerClient?.attributes.work_phone}`,
         variant: 'success',
         dismissAfter: 4000,
       });
