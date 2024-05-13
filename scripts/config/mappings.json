@@ -62,10 +62,5 @@
 		"type": "tr-workflow",
 		"name": "/Internal Call/",
 		"parent": "TWILIO_FLEX_WORKSPACE_SID"
-	},
-	"TWILIO_FLEX_ON_CALL_WORKFLOW_SID": {
-		"type": "serverless-function",
-		"name": "/features/on-call-engineer/flex/make-on-call-engineer",
-		"parent": "SERVERLESS_SID"
 	}
 }
