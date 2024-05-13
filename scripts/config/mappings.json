@@ -47,7 +47,7 @@
 		"type": "chat-service",
 		"name": "/(Flex.*Service)/"
 	},
-	"TWILIO_FLEX_ON_CALL_WORKFLOW_SID": {
+	"SERVERLESS_ON_CALL_FUNCTION_SID": {
 		"type": "serverless-function",
 		"name": "/features/on-call-engineer/flex/make-on-call-engineer",
 		"parent": "SERVERLESS_SID"
